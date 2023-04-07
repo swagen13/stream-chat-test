@@ -1,6 +1,9 @@
 {
   "expo": {
     "name": "stream-chat-test",
+    "plugins": [
+      "@notifee/react-native"
+    ],
     "slug": "stream-chat-test",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +24,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "googleServicesFile": "./google-services-android.json",
+      "package": "com.plawarn.plawarn_mobil_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "529d2321-2040-45c0-8e7f-8c367d32cb72"
+      }
     }
   }
 }
